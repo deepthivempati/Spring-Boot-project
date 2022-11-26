@@ -1,9 +1,9 @@
 package com.deepthi.practice;
 
 
-import com.deepthi.practice.Games.PacManGame;
 import com.deepthi.practice.GamesRunner.GameRunner;
-import com.deepthi.practice.GamesRunner.MarioGameRunner;
+import com.deepthi.practice.SpringflowExample.Controller.WebController;
+import com.deepthi.practice.SpringflowExample.DependencyFlowController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -31,5 +31,13 @@ public class Game {
 
  GameRunner runner =context.getBean(GameRunner.class); // since @component is annotated to PacMan class that class instance is created by bean and giving us that PacMan class implementation even without creating objects explicitly as commented code in 28 29 lines
         runner.run();
+
+        DependencyFlowController bean = context.getBean(DependencyFlowController.class);
+        System.out.println(bean);
+        System.out.println(bean.getDataFromBussinessLogic());
+
+      WebController  controller = context.getBean(WebController.class);
+       System.out.println(controller.getDataFromBussinessLogic());
+
     }
 }

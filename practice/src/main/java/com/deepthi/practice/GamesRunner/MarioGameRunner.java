@@ -2,7 +2,6 @@ package com.deepthi.practice.GamesRunner;
 
 
 import com.deepthi.practice.Games.MarioGame;
-import org.springframework.stereotype.Component;
 //@Component
 public class MarioGameRunner {
     private MarioGame marioGame; // only specific to MarioGame so it is tightly coupled.
