@@ -1,4 +1,4 @@
-package com.deepthi.practice;
+package com.mainClass.modelClasses;
 
 import lombok.*;
 import org.springframework.boot.context.properties.ConfigurationProperties;

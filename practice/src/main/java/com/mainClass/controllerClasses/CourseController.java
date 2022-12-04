@@ -1,6 +1,6 @@
-package com.mainClass;
+package com.mainClass.controllerClasses;
 
-import com.deepthi.practice.Courses.Courses;
+import com.mainClass.modelClasses.Courses;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

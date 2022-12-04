@@ -1,4 +1,4 @@
-package com.deepthi.practice.Courses;
+package com.mainClass.modelClasses;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

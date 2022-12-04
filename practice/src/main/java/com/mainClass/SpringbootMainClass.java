@@ -1,5 +1,5 @@
 package com.mainClass;
-import com.deepthi.practice.PersonDetailsConfiguration;
+import com.mainClass.modelClasses.PersonDetailsConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

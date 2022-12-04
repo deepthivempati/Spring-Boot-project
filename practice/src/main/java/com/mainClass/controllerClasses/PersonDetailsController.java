@@ -1,6 +1,6 @@
-package com.mainClass;
+package com.mainClass.controllerClasses;
 
-import com.deepthi.practice.PersonDetailsConfiguration;
+import com.mainClass.modelClasses.PersonDetailsConfiguration;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 @RestController
