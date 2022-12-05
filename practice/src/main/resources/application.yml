@@ -1,0 +1,16 @@
+server:
+  port: 8099
+spring:
+  main:
+    allow-circular-references : true
+  profiles:
+    active: dev
+logging:
+  level:
+    org:
+      springframework : debug
+person-details:
+  name : Divya
+  address : Warangal
+learn:
+  daily-hour: 2

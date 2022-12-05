@@ -1,5 +1,5 @@
-package com.mainClass;
-import com.mainClass.modelClasses.PersonDetailsConfiguration;
+package com.mainpackage;
+import com.mainpackage.modelpackage.PersonDetailsConfiguration;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

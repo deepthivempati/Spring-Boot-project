@@ -1,17 +1,11 @@
-package com.mainClass.modelClasses;
+package com.mainpackage.modelpackage;
 
 import lombok.*;
 import org.springframework.boot.context.properties.ConfigurationProperties;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.stereotype.Component;
 
-@Data
 @Getter
 @Setter
-@AllArgsConstructor
-@NoArgsConstructor
-@Component
-@Configuration
+@RequiredArgsConstructor
 @ConfigurationProperties(prefix = "person-details")
 public class PersonDetailsConfiguration {
     private String name;
